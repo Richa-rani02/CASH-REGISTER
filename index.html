@@ -11,21 +11,22 @@
 
 <body>
     <div class='container'>
-        <h1>CASH REGISTER</h1>
+        <h1>CASH REGISTER 💸</h1>
     </div>
     <div class='cash-body'>
         <p> Enter the Bill Amount and the cash given by the customer</p>
         <div>Bill Amount :</div>
-        <input placeholder="enter bill amount" class="inputbox" />
+        <input placeholder="enter bill amount" class="inputbox-bill" />
         <button class="nxtbtn">Next</button>
-
+        <p class="errormsg"></p>
         <div class="next-div">
             <div>Cash Given :</div>
-            <input class="outputbox" />
+            <input class="inputbox-cashgiven" />
             <button class="check">Check</button>
+            <p class="cashmsg"></p>
             <div>Cash Return:</div>
 
-            <div class=ttable>
+            <div class="table">
                 <table>
                     <tr>
                         <th>No. of notes</th>
