@@ -2,6 +2,7 @@
     body {
         background-color: beige;
         font-family: Crimson+Text;
+        text-align: center;
     }
     
      :root {
@@ -85,4 +86,33 @@
     th {
         color: white;
         text-shadow: none;
+    }
+    
+    .footer-icons {
+        margin-top: 40px;
+    }
+    
+    .footer-icons a {
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        cursor: pointer;
+        background-color: #D1D5DB;
+        border-radius: 2px;
+        font-size: 20px;
+        color: var(--primary-color);
+        text-align: center;
+        line-height: 35px;
+        margin-right: 3px;
+        margin-bottom: 5px;
+    }
+    
+    .list-non-bullet {
+        list-style: none;
+        padding-inline-start: 0px;
+    }
+    
+    .list-item-inline {
+        display: inline;
+        padding: 0rem 0.5rem;
     }
